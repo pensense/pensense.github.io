@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>Comment Box Like On Youtube</title>
+            <link rel="stylesheet" href="stylecomment.css">
+        </head>
+        <body>
+            <div class="container">
+                <h2>Any Message for me?</h2>
+                <form>
+                    <textarea placeholder='Add Your Comment'></textarea>
+                    <div class="btn">
+                        <input type="submit" value='Comment'>
+                        <button id='clear'>Cancel</button>
+                    </div>
+                </form>
+            </div>
+        
+            <script type="text/javascript">  
+			var feild = document.querySelector('textarea');
+			var backUp = feild.getAttribute('placeholder');
+			var btn = document.querySelector('.btn');
+			var clear = document.getElementById('clear')
+
+			feild.onfocus = function(){
+			this.setAttribute('placeholder', '');
+			this.style.borderColor = '#333';
+			btn.style.display = 'block'
+			}
+
+			feild.onblur = function(){
+			this.setAttribute('placeholder',backUp);
+			this.style.borderColor = '#aaa'
+			}
+
+			clear.onclick = function(){
+			btn.style.display = 'none';
+			feild.value = '';
+			}
+			</script>  
+        </body>
+    </html>
