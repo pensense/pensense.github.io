@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap');
+body {
+	
+	 background: url('4007999.jpg');
+	 background-size: cover;
+	background-attachment: fixed;
+	overflow: hidden; 
+    /* background-color: #E494D3;
+	
+	
+	margin-top: 20px;
+	margin-top: 20px;*/
+}
+
+#container {
+	
+    background-color: #F0B2D3;
+    border: 20px solid #DAF0EE;
+	border-radius: 50px;
+    height: 350px;
+    width: 750px;
+    margin: auto;
+    text-align: center;
+	margin-top: -50px;
+}
+
+h1 {
+	font-family: 'Dancing Script', cursive;
+	margin-top: 20px;
+    text-align: center;
+    color: white;
+	font-size: 100px;
+}
+
+#btn {
+	height: 50px;
+    width: 400px;
+	margin: 50px auto;
+  padding: 10px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: white;
+  background-color: #957DAD;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #95FFF7;
+  font-family: 'Gamja Flower', cursive;
+
+}
+#btn:hover {background-color: #7C8BFF}
+
+#btn:active {
+  background-color: #95FFF7;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+   /* margin: 50px auto;
+	border-radius: 50px;
+    height: 50px;
+    width: 400px;
+    font-size: 35px;
+    background-color: #A9D4C5;
+	color: white;
+	font-family: 'Gamja Flower', cursive;
+	 border: 0;*/
+
+
+
+#output {
+    margin: -25px auto;
+    font-size: 30px;
+    color: black;
+	font-family: 'Gamja Flower', cursive;
+}
+
+.info{
+	text-align: center;
+	color: black;
+	align-items: center;
+	justify-content: center;
+	 position: fixed;
+    bottom: 0;
+}
